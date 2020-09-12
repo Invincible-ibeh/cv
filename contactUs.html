@@ -14,15 +14,15 @@
   <hr>
 <form action="mailto: miradmayor@gmail.com" method= "post" enctype= "text/plain">
 <label>Your Name: </label>
-<input type="text"> 
+<input type="text" name="yourName"> 
 <br>
 <br>  
 <label for="">Your email: </label>
-<input type="email">
+<input type="email" name="yourEmail">
 <br> 
 <br>
 <label for="">Your Message:  </label> 
-<textarea name="" id="" cols="30" rows="10"></textarea><br>
+<textarea name="yourMessage" id="" cols="30" rows="10"></textarea><br>
 <!--Text area has two attributes that are really important, 
   One is the number of rows and the other is the number of columns. 
 Rows determines how tall your textarea should be.
@@ -42,6 +42,9 @@ After doing this, it'll open up your email app and add a bit of text to the body
 
 Another attribute is 'enctype' and this specifies that the data in out form is encoded in plaintext.
 That way you wont have the percentage sign when the email app opens up
+
+Another thing is adding a value to each of the 'name' attributes because that is going to identify the 
+data that is inside each of these
 
 -->
 <input type="submit"> 
