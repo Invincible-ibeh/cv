@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Us</title>
+</head>
+
+<body>
+  <h1>My Contact Details</h1>
+  <p>My Address: Lagos Nigeria</p>
+  <p>Phone Number: 09050008000</p>
+  <p>My email: somehting@gmail.com</p>
+  <hr>
+<form action="mailto: miradmayor@gmail.com" method= "post" enctype= "text/plain">
+<label>Your Name: </label>
+<input type="text"> 
+<br>
+<br>  
+<label for="">Your email: </label>
+<input type="email">
+<br> 
+<br>
+<label for="">Your Message:  </label> 
+<textarea name="" id="" cols="30" rows="10"></textarea><br>
+<!--Text area has two attributes that are really important, 
+  One is the number of rows and the other is the number of columns. 
+Rows determines how tall your textarea should be.
+
+Columns determine how wide it should be on your webpage.
+
+When you hit the submit button after this forms, it'll take you back to the home page because when the form
+was created, it had this attribute called "action" which is what should happen when you click submit..
+Atm the thing there was index.html which is the home page.
+
+The form action can be changed to a mailto in this format action= "mailto: miradmayor@gmail.com"
+What mailto does is that when you hit the submit button, it opens up your default mail client
+And it puts the email address that you specified
+The "post" attribute in the forms simply means that we are going to transfer what the user types into the input 
+fields into the email client.
+After doing this, it'll open up your email app and add a bit of text to the body of your email. 
+
+Another attribute is 'enctype' and this specifies that the data in out form is encoded in plaintext.
+That way you wont have the percentage sign when the email app opens up
+
+-->
+<input type="submit"> 
+<br> 
+<br>
+</body>
+
+</html>
